@@ -1,0 +1,106 @@
+# Site settings | 网站设置
+title: RainbomSea
+SEOTitle: RainbomSea的博客 | RaimbomSea
+header-img: img/home-bg-he.png
+email: RainbomSea@qq.com
+description: "RainbomSea的博客"
+keyword: "RainbomSea, RainbomSea的博客"
+url: "http://RainbomSea.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/RainbomSea/RainbomSea.github.io.git" #code repository | 代码仓库
+
+
+# Sidebar settings | 侧边栏设置
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "就算这样,也要笑着去努力啊!"
+sidebar-avatar: /img/about-head.jpg      # 头像
+
+
+
+
+
+# SNS settings | 社交网络设置
+facebook_username: RainbomSea
+github_username: RainbomSea
+zhihu_username: RainbomSea
+csdn_username: qq_39268193
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+# 转换时排除某些文件夹或文件。被排除的文件或文件夹的路径是相对于网站源码目录的，源码目录以外不受影响。
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+Regeneration: true    # 允许文件修改时自动重新生成网站。
+
+
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+plugins: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+# Gitalk
+gitalk:
+  enable: true    # 是否开启Gitalk评论
+  clientID: dbd970d2f31e9eae2e7d                            #生成的clientID
+  clientSecret: 370c81725b43760b9c10364a642203b5301c73b8    #生成的clientSecret
+  repo: RainbomSea.github.io    #仓库名称
+  owner: RainbomSea    # github用户名
+  admin: RainbomSea
+  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "GitHub·RainbomSea",
+        href: "http://RainbomSea.github.io"
+    },{
+        title: "CSDN·RainbomSea",
+        href: "https://blog.csdn.net/qq_39268193"
+    },{
+        title: "知乎·RainbomSea",
+        href: "https://www.zhihu.com/people/RainbomSea"
+    },{
+        title: "GitBook·RainbomSea",
+        href: "https://legacy.gitbook.com/@rainbomsea"
+    }
+]

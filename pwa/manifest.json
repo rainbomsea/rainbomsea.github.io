@@ -1,0 +1,19 @@
+{
+  "name": "RainbomSea",
+  "short_name": "RainbomSea",
+  "description": "就算这样, 也要笑着去努力啊",
+  "icons": [{
+    "src": "icons/pwa_icon_64.ico",
+    "sizes": "64x64",
+    "type": "image/ico"
+  }, {
+    "src": "icons/pwa_icon_128.ico",
+    "sizes": "128x128",
+    "type": "image/ico"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

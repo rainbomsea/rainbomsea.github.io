@@ -13,7 +13,7 @@ github_repo: "https://github.com/RainbomSea/RainbomSea.github.io.git" #code repo
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "就算这样,也要笑着去努力啊!"
-sidebar-avatar: /img/about-head.jpg      # 头像
+sidebar-avatar: /img/head.jpg      # 头像
 
 
 

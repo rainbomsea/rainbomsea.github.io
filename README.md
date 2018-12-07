@@ -8,7 +8,7 @@
 
 ## 示例截图，嘿嘿，还是蛮好看的吧
 
-![](http://bolg-images.oss-cn-shenzhen.aliyuncs.com/18-12-7/24840818.jpg)
+![示例图片](http://bolg-images.oss-cn-shenzhen.aliyuncs.com/18-12-7/24840818.jpg)
 
 ## 自己写的教程
 

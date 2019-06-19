@@ -94,8 +94,6 @@ layout: default
 				<!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
 				<script src="{{ site.baseurl }}/js/md5.min.js"></script>
 				<script type="text/javascript">
-					var a = window.location.href
-					console.log(a)
 					var gitalk = new Gitalk({
 						clientID: '{{site.gitalk.clientID}}',
 						clientSecret: '{{site.gitalk.clientSecret}}',
@@ -103,7 +101,7 @@ layout: default
 						owner: '{{site.gitalk.owner}}',
 						admin: ['{{site.gitalk.admin}}'],
 						distractionFreeMode: {{ site.gitalk.distractionFreeMode}},
-						id: md5(a),
+						id: md5(location.pathname),
 					});
 					gitalk.render('gitalk-container');
 				</script>

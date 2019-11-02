@@ -90,17 +90,9 @@ service-worker: true
 
 # Friends
 friends: [
+
     {
         title: "GitHub·RainbomSea",
         href: "http://RainbomSea.github.io"
-    },{
-        title: "CSDN·RainbomSea",
-        href: "https://blog.csdn.net/qq_39268193"
-    },{
-        title: "知乎·RainbomSea",
-        href: "https://www.zhihu.com/people/RainbomSea"
-    },{
-        title: "GitBook·RainbomSea",
-        href: "https://legacy.gitbook.com/@rainbomsea"
     }
 ]

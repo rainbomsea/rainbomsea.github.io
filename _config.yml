@@ -1,11 +1,11 @@
 # Site settings | 网站设置
-title: RainbomSea
-SEOTitle: RainbomSea的博客 | RaimbomSea
+title: coderlifei
+SEOTitle: coderlifei的博客 | coderlifei
 header-img: img/home-bg-he.png
-email: RainbomSea@qq.com
-description: "RainbomSea的博客"
-keyword: "RainbomSea, RainbomSea的博客, rainbom sea, rainbomsea, Python blog"
-url: "http://RainbomSea.github.io"          # your host, for absolute URL
+email: name_lifei@126.com
+description: "coderlifei的博客"
+keyword: "coderlifei, coderlifei的博客, lifei"
+url: "http://coderlifei.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/RainbomSea/RainbomSea.github.io.git" #code repository | 代码仓库
 
@@ -20,10 +20,10 @@ sidebar-avatar: /img/head.jpg      # 头像
 
 
 # SNS settings | 社交网络设置
-facebook_username: rainbom.z
-github_username: RainbomSea
-zhihu_username: RainbomSea
-csdn_username: qq_39268193
+# facebook_username: rainbom.z
+# github_username: RainbomSea
+# zhihu_username: RainbomSea
+# csdn_username: qq_39268193
 
 
 
@@ -63,9 +63,9 @@ gitalk:
   enable: true    # 是否开启Gitalk评论
   clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
   clientSecret: a866f00709e418ffd35d9986e130ff7f01a3cba2    #生成的clientSecret
-  repo: RainbomSea.github.io    #仓库名称
-  owner: RainbomSea    # github用户名
-  admin: RainbomSea
+  repo: coderlifei.github.io    #仓库名称
+  owner: coderlifei    # github用户名
+  admin: coderlifei
   distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 
@@ -91,16 +91,17 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "GitHub·RainbomSea",
-        href: "http://RainbomSea.github.io"
+        title: "GitHub·coderlifei",
+        href: "http://coderlifei.github.io"
     },{
-        title: "CSDN·RainbomSea",
+        title: "coderlifei",
         href: "https://blog.csdn.net/qq_39268193"
-    },{
-        title: "知乎·RainbomSea",
-        href: "https://www.zhihu.com/people/RainbomSea"
-    },{
-        title: "GitBook·RainbomSea",
-        href: "https://legacy.gitbook.com/@rainbomsea"
     }
+    # ,{
+    #     title: "知乎·RainbomSea",
+    #     href: "https://www.zhihu.com/people/RainbomSea"
+    # },{
+    #     title: "GitBook·RainbomSea",
+    #     href: "https://legacy.gitbook.com/@rainbomsea"
+    # }
 ]

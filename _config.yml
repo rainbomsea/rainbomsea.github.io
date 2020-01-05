@@ -12,7 +12,7 @@ github_repo: "https://github.com/coderlifei/coderlifei.github.io.git" #code repo
 
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "就算这样,也要笑着去努力啊!"
+sidebar-about-description: "wtf - do it"
 sidebar-avatar: /img/head.jpg      # 头像
 
 

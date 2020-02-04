@@ -62,7 +62,7 @@ kramdown:
 gitalk:
   enable: true    # 是否开启Gitalk评论
   clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-  clientSecret: a866f00709e418ffd35d9986e130ff7f01a3cba2    #生成的clientSecret
+  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
   repo: RainbomSea.github.io    #仓库名称
   owner: RainbomSea    # github用户名
   admin: RainbomSea

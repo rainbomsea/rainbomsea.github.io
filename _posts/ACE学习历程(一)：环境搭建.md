@@ -1,0 +1,36 @@
+## ACE安装
+ACE环境需要安装，然后本地编译后，新建工程以来编译出来的动态库。笔者使用的是Visual Studio 2017，ACE使用的是6.5.8
+1. 下载ACE，点击[这里](http://download.dre.vanderbilt.edu/)
+2. 解压下载的目录后，在目录ACE_wrappers/ace下新建config.h文件，然后在头文件里面写入一下内容(目前不知道此文件起什么作用)
+``` c++
+  #define ACE_HAS_STANDARD_CPP_LIBRARY 1
+  #include "ace/config-win32.h"
+``` 
+3. 进入到 ACE_wreppers/ace 目录下，用vs打开ace_vs207.sln(如果是其他版本的vs，可以找对应版本的解决方案打开)
+4. 然后编译，编译会生成对应的lib文件
+
+## ACE的环境变量设置
+分别新增ACE_ROOT，变量值为：F:\ACETest\ACE_weappers\，path添加%ACE_ROOT%\bin;%ACE_ROOT%\lib
+
+## 新建测试工程
+1. 新建C++项目
+2. 然后在main文件写入以下代码（vs2017不用声明#include "stdafx.h"，预编译已经默认包含）
+``` c++
+#include "ace/Log_Msg.h"
+ 
+int _tmain(int argc, _TCHAR* argv[])
+{
+ 
+        ACE_TRACE(ACE_TEXT ("main"));
+        ACE_DEBUG ((LM_INFO, ACE_TEXT ("Hello world/n")));
+        getchar();
+}
+```
+3. 设置工程依赖
+选中工程右键属性 -> VC++ 目录，在右侧的选项后加入以下内容  
+    可执行文件(Executablefiles)：添加$(ACE_ROOT)\bin  
+    包含文件(Include files)：添加$(ACE_ROOT)  
+    库文件(Library files)：添加$(ACE_ROOT)\lib  
+
+然后在当前窗口链接器 -> 输入，在附加依赖项后加入 ACEd.lib  
+4. 然后启动工程会在控制台打印 Hello world

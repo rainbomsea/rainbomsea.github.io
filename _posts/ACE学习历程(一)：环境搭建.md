@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      ACE学习历程(一)：环境搭建
+subtitle:   ACE学习历程(一)：环境搭建
+date:       2020-2-22
+author:     coderlifei
+header-img: img/post-web.jpg
+catalog: true
+tags:
+    - Blog
+---
+
 ## ACE安装
 ACE环境需要安装，然后本地编译后，新建工程以来编译出来的动态库。笔者使用的是Visual Studio 2017，ACE使用的是6.5.8
 1. 下载ACE，点击[这里](http://download.dre.vanderbilt.edu/)

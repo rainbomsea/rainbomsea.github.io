@@ -7,7 +7,7 @@ ACE环境需要安装，然后本地编译后，新建工程以来编译出来�
   #include "ace/config-win32.h"
 ``` 
 3. 进入到 ACE_wreppers/ace 目录下，用vs打开ace_vs207.sln(如果是其他版本的vs，可以找对应版本的解决方案打开)
-4. 然后编译，编译会生成对应的lib文件
+4. 然后编译，编译会生成对应的lib文件  
 
 ## ACE的环境变量设置
 分别新增ACE_ROOT，变量值为：F:\ACETest\ACE_weappers\，path添加%ACE_ROOT%\bin;%ACE_ROOT%\lib
@@ -34,3 +34,4 @@ int _tmain(int argc, _TCHAR* argv[])
 
 然后在当前窗口链接器 -> 输入，在附加依赖项后加入 ACEd.lib  
 4. 然后启动工程会在控制台打印 Hello world
+5. 如果需要继续新建工程则需要继续在工程上新增依赖

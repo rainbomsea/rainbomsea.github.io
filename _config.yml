@@ -91,16 +91,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "GitHub·RainbomSea",
+        title: "GitHub·WangONC",
         href: "http://WangONC.github.io"
     },{
-        title: "CSDN·RainbomSea",
+        title: "CSDN·WangONC",
         href: "https://blog.csdn.net/WangONC"
     },{
-        title: "知乎·RainbomSea",
+        title: "知乎·WangONC",
         href: "https://www.zhihu.com/people/WangONC"
     },{
-        title: "GitBook·RainbomSea",
+        title: "GitBook·WangONC",
         href: "https://legacy.gitbook.com/xxxxxxxxxxx"
     }
 ]

@@ -1,18 +1,18 @@
 # Site settings | 网站设置
-title: RainbomSea
-SEOTitle: RainbomSea的博客 | RaimbomSea
+title: WangONC's Blog
+SEOTitle: WangONC的博客 | WangONC
 header-img: img/home-bg-he.png
-email: RainbomSea@qq.com
-description: "RainbomSea的博客"
-keyword: "RainbomSea, RainbomSea的博客, rainbom sea, rainbomsea, Python blog"
-url: "http://RainbomSea.github.io"          # your host, for absolute URL
+email: WangONC@outlook.com
+description: "WangONC的博客"
+keyword: "WangONC, WangONC的博客, wang, CTF"
+url: "http://WangONC.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/RainbomSea/RainbomSea.github.io.git" #code repository | 代码仓库
+github_repo: "https://github.com/WangONC/WangONC.github.io.git" #code repository | 代码仓库
 
 
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "就算这样,也要笑着去努力啊!"
+sidebar-about-description: "一只RE狗！"
 sidebar-avatar: /img/head.jpg      # 头像
 
 
@@ -20,10 +20,10 @@ sidebar-avatar: /img/head.jpg      # 头像
 
 
 # SNS settings | 社交网络设置
-facebook_username: rainbom.z
-github_username: RainbomSea
-zhihu_username: RainbomSea
-csdn_username: qq_39268193
+facebook_username: WangONC
+github_username: WangONC
+zhihu_username: WangONC
+csdn_username: WangONC
 
 
 
@@ -61,11 +61,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    # 是否开启Gitalk评论
-  clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
-  repo: RainbomSea.github.io    #仓库名称
-  owner: RainbomSea    # github用户名
-  admin: RainbomSea
+  clientID: be9fef3fbd3b7a4b5d92                            #生成的clientID
+  clientSecret: 2092e0764ab4aa10932291e79f726bdfbafa70b3    #生成的clientSecret
+  repo: WangONC.github.io    #仓库名称
+  owner: WangONC    # github用户名
+  admin: WangONC
   distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 
@@ -73,7 +73,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 9acee03023ad0c6c993dd86df81e2ac8
+ba_track_id: d199cfdda51c1730f66fded558249712
 
 
 # Featured Tags
@@ -92,15 +92,15 @@ service-worker: true
 friends: [
     {
         title: "GitHub·RainbomSea",
-        href: "http://RainbomSea.github.io"
+        href: "http://WangONC.github.io"
     },{
         title: "CSDN·RainbomSea",
-        href: "https://blog.csdn.net/qq_39268193"
+        href: "https://blog.csdn.net/WangONC"
     },{
         title: "知乎·RainbomSea",
-        href: "https://www.zhihu.com/people/RainbomSea"
+        href: "https://www.zhihu.com/people/WangONC"
     },{
         title: "GitBook·RainbomSea",
-        href: "https://legacy.gitbook.com/@rainbomsea"
+        href: "https://legacy.gitbook.com/xxxxxxxxxxx"
     }
 ]

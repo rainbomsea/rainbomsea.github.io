@@ -1,7 +1,7 @@
 # Site settings | 网站设置
 title: WangONC's Blog
 SEOTitle: WangONC的博客 | WangONC
-header-img: img/home-bg-he.png
+header-img: img/home-bg.jpg
 email: WangONC@outlook.com
 description: "WangONC的博客"
 keyword: "WangONC, WangONC的博客, wang, CTF"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/WangONC/WangONC.github.io.git" #code repository
 
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一只RE狗！"
+sidebar-about-description: "一只喜欢摄影的RE狗！"
 sidebar-avatar: /img/head.jpg      # 头像
 
 

@@ -66,7 +66,7 @@ gitalk:
   repo: WangONC.github.io    #仓库名称
   owner: WangONC    # github用户名
   admin: WangONC
-  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+  #distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 
 # 统计

@@ -1,10 +1,10 @@
 # Site settings | 网站设置
-title: RainbomSea
-SEOTitle: RainbomSea的博客 | RaimbomSea
+title: Chauncey
+SEOTitle: Chauncey's博客 | Chauncey
 header-img: img/home-bg-he.png
-email: RainbomSea@qq.com
-description: "RainbomSea的博客"
-keyword: "RainbomSea, RainbomSea的博客, rainbom sea, rainbomsea, Python blog"
+email: chauncey_ye@163.com
+description: "Chauncey's博客"
+keyword: "Chauncey, Chauncey's博客, Python blog"
 url: "http://ye770256981.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/ye770526981/ye770256981.github.io" #code repository | 代码仓库
@@ -12,7 +12,7 @@ github_repo: "https://github.com/ye770526981/ye770256981.github.io" #code reposi
 
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "就算这样,也要笑着去努力啊!"
+sidebar-about-description: "无论何时，都要笑着去努力!"
 sidebar-avatar: /img/head.jpg      # 头像
 
 
@@ -20,7 +20,7 @@ sidebar-avatar: /img/head.jpg      # 头像
 
 
 # SNS settings | 社交网络设置
-github_username: RainbomSea
+github_username: ye770526981
 
 
 
@@ -58,11 +58,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    # 是否开启Gitalk评论
-  clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
-  repo: RainbomSea.github.io    #仓库名称
-  owner: RainbomSea    # github用户名
-  admin: RainbomSea
+  clientID: 387c6f35b62f85922098                           #生成的clientID
+  clientSecret: 692086e751e563cbde1db1fcfbd161199ce6226d    #生成的clientSecret
+  repo: ye770526981.github.io    #仓库名称
+  owner: ye770526981    # github用户名
+  admin: chauncey
   distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 
@@ -88,7 +88,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "GitHub·RainbomSea",
-        href: "http://RainbomSea.github.io"
+        title: "GitHub·ye770526981",
+        href: "http://ye770526981.github.io"
     }
 ]
